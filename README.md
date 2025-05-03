@@ -31,25 +31,22 @@ A custom-built, Python-based job scheduler that mimics the functionality of Linu
 
 
 ## ⚙️ How It Works
-
-1. Launch the app with:
-   ```bash
-   python main.py
-   Use the CLI menu to:
-   2.Use the CLI menu to:
-      • Add a new job
-      • Remove or view existing jobs
-      • Start or stop the scheduler
-      • View job execution history
-    3.Supported script types:
-      • Python: script. py
-      • Shell: script. sh
-    4.Execution logs are saved to:
-      • Console
-      • scheduler. log file
-      • Individual <job_id>_history.log files
-
-
+```
+1. Launch the app with: python main.py
+2.Use the CLI menu to:
+   • Add a new job
+   • Remove or view existing jobs
+   • Start or stop the scheduler
+   • View job execution history
+ 3.Supported script types:
+   • Python: script. py
+   • Shell: script. sh
+ 4.Execution logs are saved to:
+   • Console
+   • scheduler. log file
+   • Individual <job_id>_history.log files
+```
+---
 ## 📦 Requirements
 - Python 3.7+
 - schedule Python package
